@@ -1,0 +1,293 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#header{
+    background-color:black;
+    padding:10px 10px 10px 10px;
+    width:100%;
+    position:fixed;
+    
+    
+    
+}
+#lgimg{
+    width:40px;
+    padding-left: 50px;
+    padding-bottom:0px;
+}
+.logo{
+    display:inline;
+    
+}
+#gap{
+    padding-left: 750px;
+}
+
+.nav{
+    color:rgb(255, 255, 255);
+    padding-right:90px;
+    text-decoration:none;
+}
+.nav:hover{
+    color: #8ccdf4;        /* Changes text color on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+#parent{
+    padding-top:80px;
+    height:500px;
+    width:100%;
+    background-color:rgb(0, 0, 0);
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    
+    
+}
+#parent2{
+    padding-top:180px;
+    height:250px;
+    width:100%;
+    background-color:rgb(0, 0, 0);
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    
+    
+}
+#textsec{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(0, 0, 0);
+}
+.textsecsize{
+    height:70px;
+    width:350px;
+    
+    
+
+}
+
+#urpartner{
+    display:inline;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:24px;
+    font-style:bold;
+    color:rgb(212, 212, 212);
+
+
+}
+#digital{
+    display:inline;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:24px;
+    font-style:bold;
+    color:#8ccdf4;
+}
+#sologun{
+    font-size:14px;
+    text-align: justify;
+    color:rgb(212, 212, 212);
+}
+#solo{
+    position:relative;
+    bottom:34px;
+}
+#imagesec{
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    padding-bottom:70px;
+    padding-right:50px
+
+}
+#imagebox{
+    
+    height:400px;
+    width:400px;
+}
+
+#img2{
+    padding-top:100px;
+}
+
+#blog{
+    padding-top:100px;
+    height:400px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+    
+#name{
+    font-size:40px;
+    color:white;
+}
+#skill{
+    color:white;
+}
+li{
+    color:white;
+    padding-top:10px;
+}
+li:hover{
+    transform: scale(1.5)
+}
+#name:hover{
+    color:#8ccdf4;
+}
+#info{
+    padding-top: 50px;
+    height:300px;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+.in{
+    padding-top:10px;
+}
+
+
+.sectiontitle{
+    color:#8ccdf4;
+    text-align:center;
+    font-size:32px;
+    padding-top:100px;
+    padding-bottom:40px;
+}
+
+
+#casestudy{
+    background-color:black;
+    padding-bottom:80px;
+}
+
+.casebox{
+    width:70%;
+    margin:30px auto;
+    padding:30px;
+    border:1px solid #8ccdf4;
+}
+
+.casehead{
+    color:#8ccdf4;
+    padding-top:10px;
+}
+
+.casetext{
+    color:rgb(212,212,212);
+    padding-top:5px;
+}
+
+
+
+#services{
+    background-color:black;
+    text-align:center;
+    padding-bottom:80px;
+}
+
+#servicelist{
+    list-style:none;
+}
+
+#servicelist li{
+    color:white;
+    padding:10px;
+}
+
+#cta1{
+    margin-top:30px;
+    padding:12px 30px;
+    background-color:#8ccdf4;
+    border:none;
+    cursor:pointer;
+}
+
+#cta1:hover{
+    transform:scale(1.1);
+}
+
+
+
+#testimonial{
+    background-color:black;
+    padding-bottom:80px;
+    text-align:center;
+}
+
+.testbox{
+    width:60%;
+    margin:30px auto;
+    padding:20px;
+    border:1px solid #8ccdf4;
+}
+
+.clientimg{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+}
+
+
+
+#process{
+    background-color:black;
+    text-align:center;
+    padding-bottom:80px;
+}
+
+.processbox{
+    width:60%;
+    margin:15px auto;
+    padding:15px;
+    border:1px solid #8ccdf4;
+    color:white;
+}
+
+
+
+#faq{
+    background-color:black;
+    padding-bottom:80px;
+    text-align:center;
+}
+
+.faqbox{
+    width:60%;
+    margin:20px auto;
+    padding:15px;
+    border:1px solid #8ccdf4;
+}
+
+
+
+#finalcta{
+    background-color:black;
+    text-align:center;
+    padding:100px 0px;
+}
+
+#finalcta h2{
+    color:white;
+    padding-bottom:30px;
+}
+
+.ctabtn{
+    padding:12px 30px;
+    margin:10px;
+    background-color:#8ccdf4;
+    border:none;
+    cursor:pointer;
+}
+
+.ctabtn:hover{
+    transform:scale(1.1);
+}

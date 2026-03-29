@@ -1,0 +1,113 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+
+#header{
+    background-color:black;
+    padding:10px;
+    width:100%;
+    position:fixed;
+}
+
+.logo{
+    display:inline;
+}
+
+#lgimg{
+    width:40px;
+    padding-left:50px;
+}
+
+#gap{
+    padding-left:700px;
+}
+
+.nav{
+    color:white;
+    padding-right:80px;
+    text-decoration:none;
+}
+
+
+
+#contactpage{
+    padding-top:120px;
+    height:100vh;
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+#contacttext{
+    width:40%;
+    padding-left:80px;
+}
+
+#contacttitle{
+    color:white;
+    font-size:40px;
+}
+
+#contactsubtitle{
+    color:rgb(212,212,212);
+    padding-top:20px;
+    font-size:16px;
+}
+
+
+
+#formsection{
+    width:40%;
+}
+
+#contactform{
+    display:flex;
+    flex-direction:column;
+}
+
+#contactform input,
+#contactform textarea{
+    margin:12px 0px;
+    padding:12px;
+    background-color:#0F0E0E;
+    border:1px solid #8ccdf4;
+    color:white;
+    font-size:14px;
+}
+
+#contactform textarea{
+    height:120px;
+    resize:none;
+}
+
+#contactform input:focus,
+#contactform textarea:focus{
+    outline:none;
+    border:1px solid white;
+}
+
+#contactform button{
+    margin-top:20px;
+    padding:12px;
+    background-color:#8ccdf4;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#contactform button:hover{
+    transform:scale(1.05);
+}
+
+
+
+#contacttitle:hover{
+    color:#8ccdf4;
+}

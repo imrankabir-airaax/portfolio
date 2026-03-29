@@ -1,0 +1,123 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+
+#header{
+    background-color:black;
+    padding:10px;
+    width:100%;
+    position:fixed;
+}
+
+.logo{
+    display:inline;
+}
+
+#lgimg{
+    width:40px;
+    padding-left:50px;
+}
+
+#gap{
+    padding-left:700px;
+}
+
+.nav{
+    color:white;
+    padding-right:80px;
+    text-decoration:none;
+}
+
+.nav:hover{
+    color:#8ccdf4;
+}
+
+
+
+#pricingpage{
+    padding-top:120px;
+    background-color:black;
+    min-height:100vh;
+    text-align:center;
+}
+
+#pricingtitle{
+    color:white;
+    font-size:40px;
+}
+
+#pricingsub{
+    color:rgb(212,212,212);
+    padding-top:15px;
+    font-size:16px;
+}
+
+
+
+#pricingcontainer{
+    margin-top:60px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:40px;
+}
+
+
+
+.pricebox{
+    width:280px;
+    padding:30px;
+    border:1px solid #8ccdf4;
+    background-color:#0F0E0E;
+}
+
+.highlight{
+    border:2px solid #8ccdf4;
+    transform:scale(1.05);
+}
+
+.pricebox h2{
+    color:white;
+}
+
+.price{
+    color:#8ccdf4;
+    padding-top:15px;
+    font-size:28px;
+}
+
+.price span{
+    font-size:14px;
+    color:rgb(212,212,212);
+}
+
+
+
+.featurelist{
+    list-style:none;
+    padding-top:20px;
+}
+
+.featurelist li{
+    color:rgb(212,212,212);
+    padding:8px 0px;
+}
+
+
+
+.pricebtn{
+    margin-top:25px;
+    padding:12px;
+    width:100%;
+    background-color:#8ccdf4;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.pricebtn:hover{
+    transform:scale(1.05);
+}
